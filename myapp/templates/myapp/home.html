@@ -1,8 +1,16 @@
 {% extends 'myapp/base.html' %} {% block content %}
+{% load static %}
 <div class="container py-5">
     <div class="card bg-gradient bg-success">
         <div class="card-body">
             <h2 class="my-3 text-center text-light">Welcome to Busyline Transit Bus Reservation Network</h2>
+        </div>
+    </div>
+</div>
+<div class="container py=5">
+    <div class="card bg-gradient bg-secondary">
+        <div class="card-body">
+            <img src="{% static 'bus1.jpeg' %}" alt="prime route 24">
         </div>
     </div>
 </div>
